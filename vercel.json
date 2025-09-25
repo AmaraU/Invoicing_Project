@@ -1,6 +1,13 @@
 {
   "version": 2,
   "rewrites": [
-    { "source": "/(.*)", "destination": "/" }
+    {
+      "source": "/(.*)",
+      "destination": "/"
+    },
+    {
+      "source": "/proapi/:path*",
+      "destination": "http://41.78.157.215/:path*"
+    }
   ]
 }

@@ -4,8 +4,8 @@ import { handleErrors } from "../utils/handleResponse";
 import createAxiosClient from "./api";
 
 
-const authApiUrl = createAxiosClient(`${BaseUrl}/einvoicingauthapi/api/`);
-const clientApiUrl = createAxiosClient(`${BaseUrl}/einvoicingclientapi/api/`);
+const authApiUrl = createAxiosClient(`${BaseUrl}einvoicingauthapi/api/`);
+const clientApiUrl = createAxiosClient(`${BaseUrl}einvoicingclientapi/api/`);
 
 
 const authService = {
