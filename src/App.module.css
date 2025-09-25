@@ -1,0 +1,11 @@
+.withHeader {
+    display: flex;
+    background: #F6F8FA;
+    height: 100%;
+    min-height: 100vh;
+}
+
+.outlet {
+    margin-top: 96px;
+    width: 100%;
+}

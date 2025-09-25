@@ -1,0 +1,233 @@
+.whole {
+    padding: 32px 40px;
+    width: 100%;
+}
+
+.invoiceHeader {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.invoiceHeader h2 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #36394A;
+}
+
+.invoiceHeader button {
+    background: linear-gradient(0deg, #5F57FF, #5F57FF), linear-gradient(180deg, rgba(255, 255, 255, 0.12) 0%, rgba(255, 255, 255, 0) 100%);
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.invoiceHeader button img {
+    width: 16px;
+    height: 16px;
+}
+
+
+
+.tableDiv {
+    background: #FFFFFF;
+    padding: 16px 24px;
+    border-radius: 16px;
+}
+
+
+.choices {
+    display: flex;
+    justify-content: space-between;
+}
+
+.periods,
+.categories {
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid #ECEFF3;
+    border-radius: 8px;
+    padding: 4px 4px 4px 12px;
+    gap: 4px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #0D0D12;
+}
+
+.periods button,
+.categories button {
+    padding: 4px 12px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 12px;
+    font-weight: 500;
+    color: #818898;
+}
+
+.periods .active,
+.categories .active {
+    padding: 4px 12px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background: #ECEFF3;
+    font-size: 12px;
+    font-weight: 500;
+    color: #36394A;
+}
+
+
+.closed {
+    display: none;
+}
+
+.customDiv {
+    display: block;
+    position: absolute;
+    z-index: 5;
+    margin-left: -100px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 12px 0px #9CA3AF33;
+    border: 1px solid #E5E7EB;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.customDiv h4 {
+    font-size: 12px;
+    font-weight: 500;
+    color: #36394A;
+    margin-bottom: 12px;
+}
+
+.customDiv .dates {
+    display: flex;
+    gap: 8px;
+}
+
+.dates input {
+    border: 1.5px solid #a1a8bb;
+    background: transparent;
+    outline: none;
+    font-size: 12px;
+    font-weight: 500;
+    color: #666D80;
+    padding: 8px 12px;
+}
+
+.customDiv button {
+    width: 100%;
+    background: linear-gradient(0deg, #5F57FF, #5F57FF), linear-gradient(180deg, rgba(255, 255, 255, 0.12) 0%, rgba(255, 255, 255, 0) 100%);
+    padding: 8px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #FFFFFF;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    margin-top: 8px;
+}
+
+
+.invoiceTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 16px;
+}
+
+.loading {
+    width: 100%;
+    padding: 16px 0;
+    text-align: center;
+}
+
+.invoiceTable th {
+    padding: 12px 0;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
+    color: #666D80;
+}
+
+.invoiceTable tr,
+.invoiceTable thead {
+    border-bottom: 1px solid #DFE1E7;
+}
+
+.invoiceTable td {
+    padding: 12px 0;
+    font-size: 14px;
+    font-weight: 500;
+    color: #0D0D12;
+}
+
+
+.theActions {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background-color: #FFFFFF;
+    border: 1px solid #E5E7EB;
+    box-shadow: 0px 4px 12px 0px #9CA3AF33;
+    border-radius: 8px;
+    padding: 9px 8px;
+    position: absolute;
+    z-index: 5;
+    width: fit-content;
+    margin-left: -110px;
+}
+
+.invoiceTable .actions .button1 {
+    border: 0.5px solid #36394A;
+    width: 18px;
+    padding-bottom: 6px;
+    border-radius: 4px;
+    height: fit-content;
+}
+
+.invoiceTable .actions button:hover {
+    background: #78797d3e;
+}
+
+.invoiceTable .theActions .button2 {
+    width: 100%;
+    text-align: left;
+    padding: 8px;
+    border-radius: 6px;
+    margin-top: 4px;
+}
+
+.invoiceTable .actions .button3 {
+    width: 18px;
+    border-radius: 4px;
+    height: fit-content;
+    align-self: end;
+}
+
+.table2 {
+    /* table-layout: fixed; */
+    border-collapse: collapse;
+}
+
+.table2 tr {
+    margin-bottom: 8px;
+    border-bottom: 0.5px solid #666D80;
+}
+
+.table2 tr:last-child {
+    border-bottom: none;
+}
+
+.table2 td {
+    vertical-align: top;
+    padding: 4px;
+}
